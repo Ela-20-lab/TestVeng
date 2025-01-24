@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercice synthèse sur les bases de HTML.">
+    <meta name="author" content="Votre Nom">
+    <title>Exercice Synthèse</title>
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <h1>Formation aux Métiers du Numérique</h1>
+    
+    <!-- Paragraphe descriptif -->
+    <p>
+        Cette page est un exercice pour mettre en pratique les concepts de base de HTML. 
+        Elle contient un en-tête, une liste, une image, un tableau, et d'autres éléments.
+    </p>
+    
+    <!-- Liste non ordonnée -->
+    <ul>
+        <li>Introduction au HTML</li>
+        <li>Création de tableaux</li>
+        <li>Ajout d'images et de liens</li>
+        <li>Utilisation des balises de fusion</li>
+    </ul>
+    
+    <!-- Image -->
+    <img src="formation_oif.jpg" alt="Formation OIF" width="300">
+
+    <!-- Lien hypertexte vers une deuxième page -->
+    <p>
+        <a href="page2.html">Cliquez ici pour accéder à une autre page contenant la même image</a>
+    </p>
+
+    <!-- Tableau -->
+    <table border="1" style="border-collapse: collapse; width: 100%;">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Âge</th>
+                <th>Formation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Koffi</td>
+                <td>Jean</td>
+                <td>25</td>
+                <td>Développement Web</td>
+            </tr>
+            <tr>
+                <td>Ahoue</td>
+                <td colspan="2">Marie Sophie</td>
+                <td>Cybersécurité</td>
+            </tr>
+            <tr>
+                <td>Dossou</td>
+                <td>Paul</td>
+                <td>30</td>
+                <td>Big Data</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Amlan</td>
+                <td>Alex</td>
+                <td>22</td>
+                <td>Design UI/UX</td>
+            </tr>
+            <tr>
+                <td>Emma</td>
+                <td>21</td>
+                <td>Marketing Digital</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
